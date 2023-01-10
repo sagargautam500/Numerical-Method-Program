@@ -11,7 +11,8 @@ printf("\nEnter the number of data:");
 scanf("%d",&n);
 printf("\nEnter the data");
 for(i=0;i<n;i++)
-{ printf("X%d=",i+1);
+{ 
+printf("X%d=",i+1);
 scanf("%f",&arr[i][0]);
 printf("Y%d=",i+1);
 scanf("%f",&arr[i][1]);
@@ -40,10 +41,12 @@ h=arr[1][0]-arr[0][0];
 p=(x-arr[0][0])/h;
 y=arr[0][1];
 for(i=1;i<n;i++)
-{ px=px*(p-(i-1));
+{ 
+px=px*(p-(i-1));
 y=y+(arr[0][i+1]*px)/fact(i);
 }
 printf("\nthe value of function at x=%f is %f",x,y);
+return 0;
 }
 int fact(int n)
 { 

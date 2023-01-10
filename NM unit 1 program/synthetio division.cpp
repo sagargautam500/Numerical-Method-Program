@@ -1,4 +1,5 @@
 //C Program to Evaluate Polynomial using synthetio division method  
+//Bn-1=An+x*Bn;where Bn=0;
 
 #include <stdio.h>
 #include<math.h>

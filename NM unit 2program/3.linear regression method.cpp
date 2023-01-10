@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
 
-
 int main()
 {
  int n, i;
@@ -36,5 +35,5 @@ int main()
  y0=(b*x0)+a;
  printf("the value of y is %f",y0);
  getch();
- return(0);
+ return 0;
 }

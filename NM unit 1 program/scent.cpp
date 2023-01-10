@@ -29,7 +29,6 @@ int main()
 		x0=x1;
 		x1=x2;
 		count=count+1;
-		
 		goto begin;
 	}
 	return 0;

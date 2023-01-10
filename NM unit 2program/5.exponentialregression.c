@@ -45,14 +45,13 @@ double intercept(int N, double x[N], double y[N])
 }
 int main()
 {
-    int N;
+    int i, N;
     	 printf("\nName:Sagar Gautam\n");
 	 printf("\n");
     printf("Enter the no. of data-points:\n");
     scanf("%d",&N);
     double x[N], y[N], Y[N];
     printf("Enter the x-axis values:\n");
-    int i;
     for(i=0;i<N;i++){
         scanf("%lf",&x[i]);
     }

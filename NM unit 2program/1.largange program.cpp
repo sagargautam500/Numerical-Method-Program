@@ -3,7 +3,7 @@
 
 int main()
 {
-	 float x[100], y[100], xp, yp=0, p;
+	 float x[10], y[10], xp, v=0, l=1;
 	 int i,j,n;
 	 printf("\nName:Sagar Gautam\n");
 	 printf("\n");
@@ -21,16 +21,16 @@ int main()
 	 scanf("%f", &xp);
 	 for(i=1;i<=n;i++)
 	 {
-		  p=1;
+		  
 		  for(j=1;j<=n;j++)
 		  {
 			   if(i!=j)
 			   {
-			    	p = p* (xp - x[j])/(x[i] - x[j]);
+			    	l = l* (xp - x[j])/(x[i] - x[j]);
 			   }
 		  }
-		  yp = yp + p * y[i];
+		  v = v + l * y[i];
 	 }
-	 printf("Interpolated value at %.3f is %.3f.", xp, yp);
+	 printf("Interpolated value at %.3f is %.3f.", xp, v);
 	 getch();
 }

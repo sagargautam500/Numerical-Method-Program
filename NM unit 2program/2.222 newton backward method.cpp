@@ -18,7 +18,8 @@ scanf("%f",&arr[i][1]);
 }
 //forming the difference table
 for(j=2;j<=n;j++)
-{for(i=0;i<n-1;i++)
+{
+for(i=0;i<n-1;i++)
 arr[i][j]=arr[i+1][j-1]-arr[i][j-1];
 }
 //printing table
@@ -44,6 +45,7 @@ px=px*(p+(i-1));
 y=y+(arr[n-1-i][i+1]*px)/fact(i);
 }
 printf("\nthe value of f(x) at x=%f is %f",x,y);
+return 0;
 }
 int fact(int n)
 { 

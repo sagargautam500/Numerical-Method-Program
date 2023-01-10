@@ -1,10 +1,13 @@
-//implement the program finds the roots using bisection method::
+//Implement the program finds the roots using bisection method::
 #include<stdio.h>
 #include<math.h>
 #define f(x) x*x*x-4*x-9
 
 int main()
 {
+			 printf("\n\t\t(1.1)===================================================\n");
+    printf("\t\tSagar Gautam\t\t Roll No: 25758/077\n ");
+            printf("\t\tfinds the roots using bisection method\n\n");
 	int count;
 	float x0,x1,f1,f2,eps,err,root,m,fm;
 	printf("enter two initial guesses\n");
